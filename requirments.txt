@@ -1,1 +1,5 @@
+# Pytest is a Python testing tool that automatically runs all test files
+# and functions in your project to make sure your code works correctly
+# before committing changes.
+
 pytest

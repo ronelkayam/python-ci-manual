@@ -111,3 +111,15 @@ You are responsible for running tests before pushing changes.
 In the next stage, we will introduce GitHub Actions for automatic CI.
 
 
+## About Pytest
+
+[Pytest](https://docs.pytest.org/) is a popular testing framework for Python.  
+It automatically discovers and runs tests in your project. By convention, it looks for:
+
+- Files starting with `test_` or ending with `_test.py`
+- Functions and classes starting with `test_`
+
+Running `pytest` in the project folder will execute all tests under these files and report any failures.  
+This helps ensure your code works correctly before committing or deploying changes.
+
+
